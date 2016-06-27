@@ -1,0 +1,17 @@
+<h1>Results</h1>
+
+
+<ul class="results">
+  <% @results.each do |result| %>
+    <li><%= result.placing %> - <% result.name %></li>
+
+
+  <!-- <% @teachers.each do |teacher| %>
+    <li><%= teacher.full_name  %></li>
+    <ul class="<%=teacher.first_name%>_students">
+      <% teacher.students.each do |student| %>
+      <li><%= student.full_name %></li>
+      <% end %>
+    </ul>
+  <% end %>
+</ul> -->
