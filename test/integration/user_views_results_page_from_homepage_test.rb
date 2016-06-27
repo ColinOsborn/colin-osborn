@@ -8,5 +8,7 @@ class UserViewsResultsPageFromHomepage < ActionDispatch::IntegrationTest
 
     assert page.has_content? "2015 Results"
     assert page.has_content? "2014 Results"
+
+    # be sure to set up data base so that year etc shows automatically
   end
 end
